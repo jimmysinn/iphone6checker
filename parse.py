@@ -28,6 +28,6 @@ for store in stores.keys():
 	for model in models.keys(): 
 		if (obj[store][model] == True): 
 			ret=True
-			sys.stderr.write(stores[store] + ' ' + models[model] + '\n')
+			sys.stderr.write(stores[store] + '\t' + models[model] + '\n')
 if (ret == True): 
 	print '1'
